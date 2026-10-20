@@ -1,0 +1,59 @@
+{
+  "EMPLOYEES": {
+    "rowCount": 6,
+    "firstRow": {
+      "EMP_ID": 101,
+      "FIRST_NAME": "Aarav",
+      "LAST_NAME": "Mehta",
+      "EMAIL": "aarav.mehta@acme.io",
+      "DEPARTMENT": "Engineering",
+      "SALARY": 98500,
+      "HIRE_DATE": "2019-04-15"
+    }
+  },
+  "PRODUCTS": {
+    "rowCount": 5,
+    "firstRow": {
+      "PRODUCT_ID": 1,
+      "SKU": "SKU-1001",
+      "NAME": "Wireless Mouse",
+      "CATEGORY": "Electronics",
+      "PRICE": 24.99,
+      "STOCK_QTY": 150,
+      "IS_ACTIVE": 1
+    }
+  },
+  "CUSTOMERS": {
+    "rowCount": 4,
+    "firstRow": {
+      "CUSTOMER_ID": 5001,
+      "FULL_NAME": "Olivia Brown",
+      "CITY": "Toronto",
+      "COUNTRY": "Canada",
+      "PHONE": "+1-416-555-0101",
+      "LOYALTY_TIER": "GOLD"
+    }
+  },
+  "ORDERS": {
+    "rowCount": 5,
+    "firstRow": {
+      "ORDER_ID": 9001,
+      "CUSTOMER_ID": 5001,
+      "PRODUCT_ID": 1,
+      "QUANTITY": 2,
+      "ORDER_DATE": "2024-01-05",
+      "STATUS": "DELIVERED",
+      "TOTAL_AMOUNT": 49.98
+    }
+  },
+  "DEPARTMENTS": {
+    "rowCount": 5,
+    "firstRow": {
+      "DEPT_ID": 10,
+      "DEPT_NAME": "Engineering",
+      "LOCATION": "Bengaluru",
+      "BUDGET": 1500000,
+      "HEADCOUNT": 2
+    }
+  }
+}

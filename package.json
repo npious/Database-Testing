@@ -1,0 +1,30 @@
+{
+  "name": "database-testing",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation for IBM DB2 tables",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npious/Database-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npious/Database-Testing/issues"
+  },
+  "homepage": "https://github.com/npious/Database-Testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^26.6.5",
+    "dotenv": "^18.0.8",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "ibm_db": "^4.1.0"
+  }
+}
